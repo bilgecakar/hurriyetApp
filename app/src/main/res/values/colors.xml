@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EA474A</color>
+    <color name="colorPrimaryDark">#cf2a2d</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAppName">#FFFFFF</color>
+    <color name="titleText">#1c1c1c</color>
+    <color name="createdTimeText">#a9a9a9</color>
+    <color name="descText">#363636</color>
+    <color name="appThemeColor">#fff</color>
+    <color name="activeColor">#76D7C4</color>
+</resources>

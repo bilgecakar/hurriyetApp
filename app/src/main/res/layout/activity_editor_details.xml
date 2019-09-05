@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        tools:context=".EditorDetails"
+        android:background="@color/colorAppName">
+
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/redgradient"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_bar"
+            android:background="@null"
+            app:title="Editör Detay"
+            app:titleTextColor="@color/colorAppName" />
+    <TextView
+            android:id="@+id/copyEditorTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="71dp"
+            android:fontFamily="Roboto-Condensed bold"
+            android:textColor="@color/colorAppName"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"/>
+    <TextView
+            android:id="@+id/copyEditorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="42dp"
+            android:fontFamily="Roboto-Light"
+            android:textColor="@color/colorAppName"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"/>
+    <TextView
+            android:id="@+id/copyC_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="13dp"
+            android:textColor="@color/colorAppName"
+            android:textSize="14dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="5dp"/>
+
+</RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <WebView
+                android:id="@+id/copyDcs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif-light"
+                android:justificationMode="inter_word"
+                android:textColor="@color/descText"
+                android:textSize="18dp"
+                tools:ignore="WebViewLayout" />
+
+    </RelativeLayout>
+</LinearLayout>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/navigation_news"
+            android:icon="@drawable/news"
+            android:title="Nesws"
+            android:iconTint="@color/colorAppName" />
+    <item
+            android:id="@+id/navigation_editor"
+            android:icon="@drawable/editor"
+            android:title="Editors" />
+</menu>
